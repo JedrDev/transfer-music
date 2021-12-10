@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    Mail::to('e.duarte@danthop.com')->send(new TestMail());
+
     return view('welcome');
 });
 
